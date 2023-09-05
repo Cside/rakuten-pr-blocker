@@ -1,7 +1,7 @@
 {
-  "version": "0.3.5",
+  "version": "0.0.1",
   "name": "楽天から PR 商品を消す",
-  "description": "楽天市場の検索結果から PR（広告商品）を削除する",
+  "description": "楽天市場の検索結果から PR 商品（広告商品）を除外する",
   "manifest_version": 3,
   "default_locale": "ja",
   "icons": {
