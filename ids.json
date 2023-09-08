@@ -1,6 +1,17 @@
 {
-  "chrome": "mighblgjmcfaldhjjkhhbnpbmckeeelo",
-  "edge": "7848008b-830b-4b26-a2c8-a12d921d7661",
-  "firefox": "%E6%A5%BD%E5%A4%A9%E3%81%8B%E3%82%89pr%E5%95%86%E5%93%81%E3%82%92%E6%B6%88%E3%81%99",
-  "greasyFork": "474585"
+  "chrome": {
+    "id": "mighblgjmcfaldhjjkhhbnpbmckeeelo",
+    "developerId": "a66eb7ce-b7b6-4d92-a9cb-35d11a33896a"
+  },
+  "edge": {
+    "crxId": "mjhlhgjoomicojmbbckebkcemighmnah",
+    "productId": "7848008b-830b-4b26-a2c8-a12d921d7661"
+  },
+  "firefox": {
+    "id": "rakuten-pr-blocker@github.com",
+    "slug": "楽天からpr商品を消す"
+  },
+  "greasyFork": {
+    "id": 474585
+  }
 }
