@@ -6,4 +6,11 @@ import manifest from './manifest.json';
 
 export default defineConfig({
   plugins: [crx({ manifest: manifest as ManifestV3Export })],
+  server: {
+    strictPort: true,
+    port: 5173,
+    hmr: {
+      clientPort: 5173,
+    },
+  },
 });
