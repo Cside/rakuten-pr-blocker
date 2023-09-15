@@ -5,12 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@cside/browser-extension-utils':
+    specifier: ^0.0.6
+    version: 0.0.6
   bootstrap:
     specifier: ^5.3.1
     version: 5.3.1(@popperjs/core@2.11.8)
-  browser-extension-utils:
-    specifier: github:Cside/browser-extension-utils
-    version: github.com/Cside/browser-extension-utils/0d33946bb37360a25b39e26f0a3d024c2d008f86
 
 devDependencies:
   '@crxjs/vite-plugin':
@@ -352,6 +352,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@cside/browser-extension-utils@0.0.6:
+    resolution: {integrity: sha512-O6jni8Sk2+3RAlcwISfcVkLy3G7hpY9f2wOrBPF+eHjlGbvbD3Ea0JfurboMI5ApVoj36FKai+6EWOOaGw4bqw==, tarball: https://npm.pkg.github.com/download/@cside/browser-extension-utils/0.0.6/ddd40eabaff58c446991f0b5bb2a337bc526a855}
+    hasBin: true
+    dependencies:
+      colorette: 2.0.20
+      open: 9.1.0
+      zod: 3.22.2
+    dev: false
 
   /@csstools/css-parser-algorithms@2.3.1(@csstools/css-tokenizer@2.2.0):
     resolution: {integrity: sha512-xrvsmVUtefWMWQsGgFffqWSK03pZ1vfDki4IVIIUxxDKnGBzqNgv0A7SB1oXtVNEkcVO8xi1ZrTL29HhSu5kGA==}
@@ -3381,15 +3390,4 @@ packages:
 
   /zod@3.22.2:
     resolution: {integrity: sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==}
-    dev: false
-
-  github.com/Cside/browser-extension-utils/0d33946bb37360a25b39e26f0a3d024c2d008f86:
-    resolution: {tarball: https://codeload.github.com/Cside/browser-extension-utils/tar.gz/0d33946bb37360a25b39e26f0a3d024c2d008f86}
-    name: browser-extension-utils
-    version: 0.0.2
-    hasBin: true
-    dependencies:
-      colorette: 2.0.20
-      open: 9.1.0
-      zod: 3.22.2
     dev: false
