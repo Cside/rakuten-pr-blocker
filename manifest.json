@@ -17,8 +17,8 @@
   "content_scripts": [
     {
       "matches": ["https://search.rakuten.co.jp/search/mall/*"],
-      "js": ["src/content-script.js"],
-      "run_at": "document_start"
+      "js": ["src/contentScript.ts"],
+      "run_at": "document_end"
     }
   ]
 }
