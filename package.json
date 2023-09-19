@@ -15,7 +15,6 @@
     "lint-fix": "run-p -c lint-fix:*",
     "check:types": "tsc --noEmit",
     "check:ng-word": "./scripts/check-ng-words.sh",
-    "check:unused-exports": "ts-prune -e",
     "check": "run-p -c lint check:*"
   },
   "devDependencies": {
@@ -32,7 +31,6 @@
     "stylelint-csstree-validator": "^2.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
     "stylelint-value-no-unknown-custom-properties": "^4.0.0",
-    "ts-prune": "^0.10.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.5",
     "vitest": "^0.34.2"
