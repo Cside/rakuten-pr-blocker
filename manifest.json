@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "楽天の PR 商品を非表示にする",
   "description": "楽天市場の検索結果から PR 商品（広告商品）を消します。",
   "manifest_version": 3,
